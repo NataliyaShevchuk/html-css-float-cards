@@ -27,3 +27,19 @@ header{
     color: rgb(51, 50, 52);
 }
 
+.contatto{
+      width: 200px;
+      height: 85px;
+      background-color: black;
+      /* text-align: right; */
+      margin-top: 75px;
+}
+
+.marco{
+    color: white;
+    float: right;
+}
+.float{
+    float: left;
+    
+}
