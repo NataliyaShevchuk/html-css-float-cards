@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+header{
+    text-align: center;
+    font-family: Arial Hebrew;
+    color: #ff5d8f;
+    font-weight: 900;
+    font-size: 320%;
+    padding: 32px;
+}
+
+.contenitore{
+    width: 920px;
+    height: 400px;
+    background-color: rgb(92, 171, 235);
+    margin: auto;
+}
+
+.slogan{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial Hebrew;
+    color: rgb(51, 50, 52);
+}
+
