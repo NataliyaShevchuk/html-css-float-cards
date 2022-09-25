@@ -4,42 +4,38 @@
 	padding: 0
 }
 
-header{
-    text-align: center;
-    font-family: Arial Hebrew;
-    color: #ff5d8f;
-    font-weight: 900;
-    font-size: 320%;
-    padding: 32px;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.contenitore{
+.container{
     width: 920px;
-    height: 400px;
-    background-color: rgb(92, 171, 235);
-    margin: auto;
+    margin: 0 auto;
 }
 
-.slogan{
+.text{
     text-align: center;
-    font-size: larger;
-    font-family: Arial Hebrew;
-    color: rgb(51, 50, 52);
 }
-
-.contatto{
-      width: 200px;
-      height: 85px;
-      background-color: black;
-      /* text-align: right; */
-      margin-top: 75px;
-}
-
-.marco{
+/* .riga{
+    padding: 50px;
+} */
+.card{
+    background-color: black;
     color: white;
-    float: right;
-}
-.float{
+    width: calc(32.7% - (2rem / 3 ));
+    margin-right: 1rem;
+    height: 100px;
+    margin-top: 50px;
     float: left;
     
+    
 }
+.card img{
+    width: 100px;
+    float: left;
+}
+
+
+
